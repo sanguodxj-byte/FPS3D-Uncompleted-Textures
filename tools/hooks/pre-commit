@@ -1,0 +1,6 @@
+#!/bin/sh
+# 安装: cp tools/hooks/pre-commit .git/hooks/pre-commit && chmod +x .git/hooks/pre-commit
+# 提交前校验本次暂存的 GLB 是否符合 docs/GLB_SPEC.md
+files=$(git diff --cached --name-only --diff-filter=ACM -- 'models/*.glb')
+[ -z "$files" ] && exit 0
+python3 tools/validate_glb.py $files || { echo "GLB 不符合 docs/GLB_SPEC.md，提交已拦下"; exit 1; }
