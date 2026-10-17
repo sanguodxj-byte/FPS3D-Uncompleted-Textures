@@ -9,6 +9,16 @@
 - **剩余待建模建筑**：`0` 种
 - **45° 俯视 8 方位总览印相表**：共 22 张（存放在 `previews/MASTER_00.png` ~ `previews/MASTER_21.png`）
 
+## 动物模块
+
+动物是独立模块，与建筑分线推进，进度单独维护：
+
+- 进度表：[PROGRESS_ANIMALS.md](PROGRESS_ANIMALS.md)
+- 贴图索引：[INDEX_ANIMALS.md](INDEX_ANIMALS.md)
+- 交付规范：[docs/ANIMAL_SPEC.md](docs/ANIMAL_SPEC.md)
+- 当前状态：待建模 `40` 种（Core 4 / Biotech 16 / Anomaly 13 / Odyssey 7），
+  其中 `39` 种三视图已齐备，`1` 种（CreepJoiner，人形伪装体）无独立贴图暂缓。
+
 ## 重做精修进度
 
 - **重做进度**：主模型 `85 / 246`，变体行 `16 / 135`（第 04–13 批通用块体模型逐个手工重做；变体行按 def 计，一行含多个变体）

@@ -1,0 +1,581 @@
+[
+ {
+  "def": "Bulbfreak",
+  "zh": "bulbfreak",
+  "dlc": "Anomaly",
+  "texPath": "",
+  "files": [
+   "Animal_Bulbfreak_east.png",
+   "Animal_Bulbfreak_south.png",
+   "Animal_Bulbfreak_north.png"
+  ],
+  "body": "Bulbfreak",
+  "parent": "BaseFleshbeast",
+  "drawSize": ""
+ },
+ {
+  "def": "Chimera",
+  "zh": "chimera",
+  "dlc": "Anomaly",
+  "texPath": "",
+  "files": [
+   "Animal_Chimera_east.png",
+   "Animal_Chimera_south.png",
+   "Animal_Chimera_north.png"
+  ],
+  "body": "QuadrupedAnimalWithPaws",
+  "parent": "BasePawn",
+  "drawSize": ""
+ },
+ {
+  "def": "CreepJoiner",
+  "zh": "CreepJoiner",
+  "dlc": "Anomaly",
+  "texPath": "",
+  "files": [],
+  "body": "",
+  "parent": "Human",
+  "drawSize": ""
+ },
+ {
+  "def": "Devourer",
+  "zh": "devourer",
+  "dlc": "Anomaly",
+  "texPath": "",
+  "files": [
+   "Animal_Devourer_east.png",
+   "Animal_Devourer_south.png",
+   "Animal_Devourer_north.png"
+  ],
+  "body": "Devourer",
+  "parent": "BasePawn",
+  "drawSize": ""
+ },
+ {
+  "def": "Dreadmeld",
+  "zh": "dreadmeld",
+  "dlc": "Anomaly",
+  "texPath": "",
+  "files": [
+   "Animal_Dreadmeld_east.png",
+   "Animal_Dreadmeld_south.png",
+   "Animal_Dreadmeld_north.png"
+  ],
+  "body": "Dreadmeld",
+  "parent": "BaseFleshbeast",
+  "drawSize": ""
+ },
+ {
+  "def": "Fingerspike",
+  "zh": "fingerspike",
+  "dlc": "Anomaly",
+  "texPath": "",
+  "files": [
+   "Animal_Fingerspike_east.png",
+   "Animal_Fingerspike_south.png",
+   "Animal_Fingerspike_north.png"
+  ],
+  "body": "Fingerspike",
+  "parent": "BaseFleshbeast",
+  "drawSize": ""
+ },
+ {
+  "def": "FleshmassNucleus",
+  "zh": "fleshmass nucleus",
+  "dlc": "Anomaly",
+  "texPath": "",
+  "files": [
+   "Animal_FleshmassNucleus_single.png"
+  ],
+  "body": "FleshmassNucleus",
+  "parent": "MysteriousSphereEntityBase",
+  "drawSize": ""
+ },
+ {
+  "def": "Gorehulk",
+  "zh": "gorehulk",
+  "dlc": "Anomaly",
+  "texPath": "",
+  "files": [
+   "Animal_Gorehulk_east.png",
+   "Animal_Gorehulk_south.png",
+   "Animal_Gorehulk_north.png"
+  ],
+  "body": "Gorehulk",
+  "parent": "BasePawn",
+  "drawSize": ""
+ },
+ {
+  "def": "Metalhorror",
+  "zh": "metalhorror",
+  "dlc": "Anomaly",
+  "texPath": "",
+  "files": [
+   "Animal_Metalhorror_east.png",
+   "Animal_Metalhorror_south.png",
+   "Animal_Metalhorror_north.png"
+  ],
+  "body": "Metalhorror",
+  "parent": "BasePawn",
+  "drawSize": ""
+ },
+ {
+  "def": "Nociosphere",
+  "zh": "nociosphere",
+  "dlc": "Anomaly",
+  "texPath": "",
+  "files": [
+   "Animal_Nociosphere_single.png"
+  ],
+  "body": "Nociosphere",
+  "parent": "MysteriousSphereEntityBase",
+  "drawSize": ""
+ },
+ {
+  "def": "Noctol",
+  "zh": "noctol",
+  "dlc": "Anomaly",
+  "texPath": "",
+  "files": [
+   "Animal_Noctol_east.png",
+   "Animal_Noctol_south.png",
+   "Animal_Noctol_north.png"
+  ],
+  "body": "Noctol",
+  "parent": "BasePawn",
+  "drawSize": ""
+ },
+ {
+  "def": "Revenant",
+  "zh": "revenant",
+  "dlc": "Anomaly",
+  "texPath": "",
+  "files": [
+   "Animal_Revenant_east.png",
+   "Animal_Revenant_south.png",
+   "Animal_Revenant_north.png"
+  ],
+  "body": "Human",
+  "parent": "BasePawn",
+  "drawSize": ""
+ },
+ {
+  "def": "Sightstealer",
+  "zh": "sightstealer",
+  "dlc": "Anomaly",
+  "texPath": "",
+  "files": [
+   "Animal_Sightstealer_east.png",
+   "Animal_Sightstealer_south.png",
+   "Animal_Sightstealer_north.png"
+  ],
+  "body": "Human",
+  "parent": "BasePawn",
+  "drawSize": ""
+ },
+ {
+  "def": "Toughspike",
+  "zh": "toughspike",
+  "dlc": "Anomaly",
+  "texPath": "",
+  "files": [
+   "Animal_Toughspike_east.png",
+   "Animal_Toughspike_south.png",
+   "Animal_Toughspike_north.png"
+  ],
+  "body": "Toughspike",
+  "parent": "BaseFleshbeast",
+  "drawSize": ""
+ },
+ {
+  "def": "Trispike",
+  "zh": "trispike",
+  "dlc": "Anomaly",
+  "texPath": "",
+  "files": [
+   "Animal_Trispike_east.png",
+   "Animal_Trispike_south.png",
+   "Animal_Trispike_north.png"
+  ],
+  "body": "Trispike",
+  "parent": "BaseFleshbeast",
+  "drawSize": ""
+ },
+ {
+  "def": "Mech_Agrihand",
+  "zh": "agrihand",
+  "dlc": "Biotech",
+  "texPath": "",
+  "files": [
+   "Animal_Mech_Agrihand_east.png",
+   "Animal_Mech_Agrihand_south.png",
+   "Animal_Mech_Agrihand_north.png"
+  ],
+  "body": "Mech_Agrihand",
+  "parent": "LightMechanoid",
+  "drawSize": ""
+ },
+ {
+  "def": "Mech_Apocriton",
+  "zh": "apocriton",
+  "dlc": "Biotech",
+  "texPath": "",
+  "files": [
+   "Animal_Mech_Apocriton_east.png",
+   "Animal_Mech_Apocriton_south.png",
+   "Animal_Mech_Apocriton_north.png"
+  ],
+  "body": "Apocriton",
+  "parent": "BaseMechanoidWalker",
+  "drawSize": ""
+ },
+ {
+  "def": "Mech_Centurion",
+  "zh": "centurion",
+  "dlc": "Biotech",
+  "texPath": "",
+  "files": [
+   "Animal_Mech_Centurion_east.png",
+   "Animal_Mech_Centurion_south.png",
+   "Animal_Mech_Centurion_north.png"
+  ],
+  "body": "Mech_Centurion",
+  "parent": "SuperHeavyMechanoid",
+  "drawSize": ""
+ },
+ {
+  "def": "Mech_Cleansweeper",
+  "zh": "cleansweeper",
+  "dlc": "Biotech",
+  "texPath": "",
+  "files": [
+   "Animal_Mech_Cleansweeper_east.png",
+   "Animal_Mech_Cleansweeper_south.png",
+   "Animal_Mech_Cleansweeper_north.png"
+  ],
+  "body": "",
+  "parent": "LightMechanoid",
+  "drawSize": ""
+ },
+ {
+  "def": "Mech_Constructoid",
+  "zh": "constructoid",
+  "dlc": "Biotech",
+  "texPath": "",
+  "files": [
+   "Animal_Mech_Constructoid_east.png",
+   "Animal_Mech_Constructoid_south.png"
+  ],
+  "body": "",
+  "parent": "LightMechanoid",
+  "drawSize": ""
+ },
+ {
+  "def": "Mech_Diabolus",
+  "zh": "diabolus",
+  "dlc": "Biotech",
+  "texPath": "",
+  "files": [
+   "Animal_Mech_Diabolus_east.png",
+   "Animal_Mech_Diabolus_south.png",
+   "Animal_Mech_Diabolus_north.png"
+  ],
+  "body": "Mech_Diabolus",
+  "parent": "SuperHeavyMechanoid",
+  "drawSize": ""
+ },
+ {
+  "def": "Mech_Fabricor",
+  "zh": "fabricor",
+  "dlc": "Biotech",
+  "texPath": "",
+  "files": [
+   "Animal_Mech_Fabricor_east.png",
+   "Animal_Mech_Fabricor_south.png",
+   "Animal_Mech_Fabricor_north.png"
+  ],
+  "body": "",
+  "parent": "LightMechanoid",
+  "drawSize": ""
+ },
+ {
+  "def": "Mech_Legionary",
+  "zh": "legionary",
+  "dlc": "Biotech",
+  "texPath": "",
+  "files": [
+   "Animal_Mech_Legionary_east.png",
+   "Animal_Mech_Legionary_south.png",
+   "Animal_Mech_Legionary_north.png"
+  ],
+  "body": "",
+  "parent": "LancerMechanoidWalker",
+  "drawSize": ""
+ },
+ {
+  "def": "Mech_Lifter",
+  "zh": "lifter",
+  "dlc": "Biotech",
+  "texPath": "",
+  "files": [
+   "Animal_Mech_Lifter_east.png",
+   "Animal_Mech_Lifter_south.png",
+   "Animal_Mech_Lifter_north.png"
+  ],
+  "body": "",
+  "parent": "LightMechanoid",
+  "drawSize": ""
+ },
+ {
+  "def": "Mech_Militor",
+  "zh": "militor",
+  "dlc": "Biotech",
+  "texPath": "",
+  "files": [
+   "Animal_Mech_Militor_east.png",
+   "Animal_Mech_Militor_south.png",
+   "Animal_Mech_Militor_north.png"
+  ],
+  "body": "",
+  "parent": "LightMechanoid",
+  "drawSize": ""
+ },
+ {
+  "def": "Mech_Paramedic",
+  "zh": "paramedic",
+  "dlc": "Biotech",
+  "texPath": "",
+  "files": [
+   "Animal_Mech_Paramedic_east.png",
+   "Animal_Mech_Paramedic_south.png",
+   "Animal_Mech_Paramedic_north.png"
+  ],
+  "body": "",
+  "parent": "LightMechanoid",
+  "drawSize": ""
+ },
+ {
+  "def": "Mech_Scorcher",
+  "zh": "scorcher",
+  "dlc": "Biotech",
+  "texPath": "",
+  "files": [
+   "Animal_Mech_Scorcher_east.png",
+   "Animal_Mech_Scorcher_south.png",
+   "Animal_Mech_Scorcher_north.png"
+  ],
+  "body": "Scorcher",
+  "parent": "BaseMechanoidWalker",
+  "drawSize": ""
+ },
+ {
+  "def": "Mech_Tesseron",
+  "zh": "tesseron",
+  "dlc": "Biotech",
+  "texPath": "",
+  "files": [
+   "Animal_Mech_Tesseron_east.png",
+   "Animal_Mech_Tesseron_south.png",
+   "Animal_Mech_Tesseron_north.png"
+  ],
+  "body": "",
+  "parent": "LancerMechanoidWalker",
+  "drawSize": ""
+ },
+ {
+  "def": "Mech_Tunneler",
+  "zh": "tunneler",
+  "dlc": "Biotech",
+  "texPath": "",
+  "files": [
+   "Animal_Mech_Tunneler_east.png",
+   "Animal_Mech_Tunneler_south.png",
+   "Animal_Mech_Tunneler_north.png"
+  ],
+  "body": "Mech_Tunneler",
+  "parent": "HeavyMechanoid",
+  "drawSize": ""
+ },
+ {
+  "def": "Mech_WarUrchin",
+  "zh": "war urchin",
+  "dlc": "Biotech",
+  "texPath": "",
+  "files": [
+   "Animal_Mech_WarUrchin_east.png",
+   "Animal_Mech_WarUrchin_south.png",
+   "Animal_Mech_WarUrchin_north.png"
+  ],
+  "body": "",
+  "parent": "LightMechanoid",
+  "drawSize": ""
+ },
+ {
+  "def": "Mech_Warqueen",
+  "zh": "war queen",
+  "dlc": "Biotech",
+  "texPath": "",
+  "files": [
+   "Animal_Mech_Warqueen_east.png",
+   "Animal_Mech_Warqueen_south.png",
+   "Animal_Mech_Warqueen_north.png"
+  ],
+  "body": "Mech_Warqueen",
+  "parent": "SuperHeavyMechanoid",
+  "drawSize": ""
+ },
+ {
+  "def": "Mech_Lancer",
+  "zh": "lancer",
+  "dlc": "Core",
+  "texPath": "",
+  "files": [
+   "Animal_Mech_Lancer_east.png",
+   "Animal_Mech_Lancer_south.png",
+   "Animal_Mech_Lancer_north.png"
+  ],
+  "body": "Lancer",
+  "parent": "BaseMechanoidWalker",
+  "drawSize": ""
+ },
+ {
+  "def": "Mech_Pikeman",
+  "zh": "pikeman",
+  "dlc": "Core",
+  "texPath": "",
+  "files": [
+   "Animal_Mech_Pikeman_east.png",
+   "Animal_Mech_Pikeman_south.png",
+   "Animal_Mech_Pikeman_north.png"
+  ],
+  "body": "Pikeman",
+  "parent": "BaseMechanoidWalker",
+  "drawSize": ""
+ },
+ {
+  "def": "Mech_Scyther",
+  "zh": "scyther",
+  "dlc": "Core",
+  "texPath": "",
+  "files": [
+   "Animal_Mech_Scyther_east.png",
+   "Animal_Mech_Scyther_south.png",
+   "Animal_Mech_Scyther_north.png"
+  ],
+  "body": "Scyther",
+  "parent": "BaseMechanoidWalker",
+  "drawSize": ""
+ },
+ {
+  "def": "Mech_Termite",
+  "zh": "termite",
+  "dlc": "Core",
+  "texPath": "",
+  "files": [
+   "Animal_Mech_Termite_east.png",
+   "Animal_Mech_Termite_south.png",
+   "Animal_Mech_Termite_north.png"
+  ],
+  "body": "MechanicalTermite",
+  "parent": "BaseMechanoid",
+  "drawSize": ""
+ },
+ {
+  "def": "Drone_Hunter",
+  "zh": "hunter drone",
+  "dlc": "Odyssey",
+  "texPath": "",
+  "files": [
+   "Animal_Drone_Hunter_east.png",
+   "Animal_Drone_Hunter_south.png",
+   "Animal_Drone_Hunter_north.png"
+  ],
+  "body": "DroneWithThreeLegs",
+  "parent": "BaseDrone",
+  "drawSize": ""
+ },
+ {
+  "def": "Drone_Sentry",
+  "zh": "sentry drone",
+  "dlc": "Odyssey",
+  "texPath": "",
+  "files": [
+   "Animal_Drone_Sentry_east.png",
+   "Animal_Drone_Sentry_south.png",
+   "Animal_Drone_Sentry_north.png"
+  ],
+  "body": "DroneWithTreads",
+  "parent": "BaseDrone",
+  "drawSize": ""
+ },
+ {
+  "def": "Drone_Wasp",
+  "zh": "wasp",
+  "dlc": "Odyssey",
+  "texPath": "",
+  "files": [
+   "Animal_Drone_Wasp_east.png",
+   "Animal_Drone_Wasp_south.png",
+   "Animal_Drone_Wasp_north.png"
+  ],
+  "body": "",
+  "parent": "BaseDrone",
+  "drawSize": ""
+ },
+ {
+  "def": "HiveQueen",
+  "zh": "hive queen",
+  "dlc": "Odyssey",
+  "texPath": "",
+  "files": [
+   "Animal_HiveQueen_east.png",
+   "Animal_HiveQueen_south.png",
+   "Animal_HiveQueen_north.png"
+  ],
+  "body": "BeetleLikeWithClaw",
+  "parent": "BaseInsect",
+  "drawSize": ""
+ },
+ {
+  "def": "Larva",
+  "zh": "larva",
+  "dlc": "Odyssey",
+  "texPath": "",
+  "files": [
+   "Animal_Larva_east.png",
+   "Animal_Larva_south.png",
+   "Animal_Larva_north.png"
+  ],
+  "body": "Larva",
+  "parent": "BaseInsect",
+  "drawSize": ""
+ },
+ {
+  "def": "Locust",
+  "zh": "locust",
+  "dlc": "Odyssey",
+  "texPath": "",
+  "files": [
+   "Animal_Locust_east.png",
+   "Animal_Locust_south.png",
+   "Animal_Locust_north.png"
+  ],
+  "body": "BeetleLike",
+  "parent": "BaseInsect",
+  "drawSize": ""
+ },
+ {
+  "def": "Mech_Cyclops",
+  "zh": "cyclops",
+  "dlc": "Odyssey",
+  "texPath": "",
+  "files": [
+   "Animal_Mech_Cyclops_east.png",
+   "Animal_Mech_Cyclops_south.png",
+   "Animal_Mech_Cyclops_north.png"
+  ],
+  "body": "Cyclops",
+  "parent": "BaseMechanoidWalker",
+  "drawSize": ""
+ }
+]
