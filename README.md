@@ -27,6 +27,15 @@ RimWorld 1.7 第一人称模组（FirstPerson3D）待建模物体原版/DLC贴�
 
 统计：待建模 42 种（机械族与无人机 24 / 有机形体 17 / 暂缓 1），贴图 118 张。
 
+## 提交前门禁
+
+`tools/hooks/pre-commit` 会在提交前检查暂存的 GLB 是否符合 `docs/GLB_SPEC.md`，
+不符则拦下。克隆仓库后执行一次启用：
+
+```sh
+git config core.hooksPath tools/hooks
+```
+
 ## 文件架构与命名规范
 - 全仓库遵循**完全扁平化架构**，所有贴图直放在根目录下，无任何子文件夹嵌套。
 - 命名规范：`<类别>_<DefName>_<子部件/视角/状态>.png`

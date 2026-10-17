@@ -1,6 +1,33 @@
 #!/bin/sh
 # 安装: cp tools/hooks/pre-commit .git/hooks/pre-commit && chmod +x .git/hooks/pre-commit
-# 提交前校验本次暂存的 GLB 是否符合 docs/GLB_SPEC.md
+# 或一次性启用: git config core.hooksPath tools/hooks
+#
+# 本仓库有两道提交前门禁：docs/ 规范文件白名单、GLB 规范校验。
+
+# ---------------------------------------------------------------
+# 门禁 1：docs/ 下只允许既有规范文件，禁止新增或改动
+#
+# 背景：曾出现执行者交付动物模块时自造 docs/ANIMAL_SPEC.md，
+# 把个人理解写成了项目强制规则。规范属于项目所有者的决策范围，
+# 不由执行者自行引入。这里在提交时硬性拦截。
+# ---------------------------------------------------------------
+SPEC_ALLOW="docs/GLB_SPEC.md"
+new_spec=$(git diff --cached --name-only --diff-filter=ACM -- 'docs/*'     | grep -v "^${SPEC_ALLOW}$")
+
+if [ -n "$new_spec" ]; then
+    echo "提交被拦下：docs/ 下不允许新增或修改规范文件。"
+    echo ""
+    echo "  唯一允许的规范文件：${SPEC_ALLOW}"
+    echo "  本次涉及："
+    echo "${new_spec}" | sed 's/^/    /'
+    echo ""
+    echo "  规范变更必须由项目所有者明确指示后再落地，执行者不得自行引入。"
+    exit 1
+fi
+
+# ---------------------------------------------------------------
+# 门禁 2：暂存的 GLB 必须符合 docs/GLB_SPEC.md
+# ---------------------------------------------------------------
 files=$(git diff --cached --name-only --diff-filter=ACM -- 'models/*.glb')
 [ -z "$files" ] && exit 0
 python3 tools/validate_glb.py $files || { echo "GLB 不符合 docs/GLB_SPEC.md，提交已拦下"; exit 1; }
